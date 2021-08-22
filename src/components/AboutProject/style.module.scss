@@ -1,0 +1,23 @@
+.aboutproject {
+  width: 700px;
+  margin: 0 auto;
+
+  background: #fff;
+  margin-top: 2rem;
+
+  .container {
+    padding: 1rem 2rem;
+
+    color: #a0a0a0;
+
+    .about {
+      h1 {
+        color: #000;
+        margin-bottom: 2rem;
+      }
+      p {
+        line-height: 1.7rem;
+      }
+    }
+  }
+}
