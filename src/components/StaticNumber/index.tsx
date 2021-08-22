@@ -16,6 +16,9 @@ export function StaticNumber() {
           <ItemStaticNumber value={s} />
           <ItemStaticNumber value={s} />
         </div>
+        <div className={style.preloading}>
+          <div className={style.loading}></div>
+        </div>
       </div>
     </section>
   );
