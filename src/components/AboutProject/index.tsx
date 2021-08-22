@@ -1,3 +1,4 @@
+import { ItemProject } from "../ItemProject";
 import style from "./style.module.scss";
 export function AboutProject() {
   return (
@@ -18,6 +19,13 @@ export function AboutProject() {
             USB sticks to be stored under the stand.
           </p>
         </div>
+        <ItemProject
+          title="Bamboo Stand"
+          value="Pledge $25 or more"
+          describe="You get an ergonomic stand made
+      of natural bamboo. You've helped us launch our promotional campaign, and
+      you’ll be added to a special Backer member list."
+        />
       </div>
     </section>
   );
