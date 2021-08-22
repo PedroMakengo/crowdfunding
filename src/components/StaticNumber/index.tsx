@@ -1,7 +1,8 @@
+import { ItemStaticNumber } from "../ItemStaticNumber";
 import style from "./style.module.scss";
 
 export function StaticNumber() {
-  const value = 100;
+  const value = 89.914;
   const s = value.toLocaleString("PT-BR", {
     style: "currency",
     currency: "USD",
@@ -10,7 +11,11 @@ export function StaticNumber() {
   return (
     <section className={style.staticnumber}>
       <div className={style.container}>
-        <div className="item">{s}</div>
+        <div className={style.itemstatic}>
+          <ItemStaticNumber value={s} />
+          <ItemStaticNumber value={s} />
+          <ItemStaticNumber value={s} />
+        </div>
       </div>
     </section>
   );

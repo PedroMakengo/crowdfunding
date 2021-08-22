@@ -7,4 +7,33 @@
   border-radius: 0.5rem;
 
   margin-top: 2rem;
+  margin-bottom: 4rem;
+
+  .container {
+    padding: 1rem 4rem;
+
+    .itemstatic {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 1rem;
+
+      div {
+        border-right: 1px solid #ccc;
+        padding-right: 1.5rem;
+
+        h1 {
+          font-size: 1rem;
+        }
+        p {
+          font-size: 1rem;
+          color: #ccc;
+        }
+
+        &:last-child {
+          border-right: 0;
+        }
+      }
+    }
+  }
 }
