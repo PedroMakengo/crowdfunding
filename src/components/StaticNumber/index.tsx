@@ -12,9 +12,9 @@ export function StaticNumber() {
     <section className={style.staticnumber}>
       <div className={style.container}>
         <div className={style.itemstatic}>
-          <ItemStaticNumber value={s} />
-          <ItemStaticNumber value={s} />
-          <ItemStaticNumber value={s} />
+          <ItemStaticNumber value={s} text="of $100,00 backed" />
+          <ItemStaticNumber value="5,007" text="total backers" />
+          <ItemStaticNumber value={s} text="days left" />
         </div>
         <div className={style.preloading}>
           <div className={style.loading}></div>

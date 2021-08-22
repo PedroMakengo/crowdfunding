@@ -10,7 +10,7 @@
   margin-bottom: 4rem;
 
   .container {
-    padding: 1rem 4rem;
+    padding: 1rem 2rem 3rem 4rem;
 
     .itemstatic {
       display: flex;
@@ -19,11 +19,16 @@
       margin-top: 1rem;
 
       div {
+        width: 30%;
         border-right: 1px solid #ccc;
-        padding-right: 1.5rem;
+
+        & + div {
+          padding-left: 2rem;
+        }
 
         h1 {
-          font-size: 1rem;
+          font-size: 1.3rem;
+          line-height: 0.2rem;
         }
         p {
           font-size: 1rem;

@@ -4,7 +4,7 @@ export function ItemStaticNumber(props) {
   return (
     <div className="item">
       <h1>{props.value}</h1>
-      <p>Of $100,000 backed</p>
+      <p>{props.text || "Default"}</p>
     </div>
   );
 }
