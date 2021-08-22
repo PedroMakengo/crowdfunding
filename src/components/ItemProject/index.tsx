@@ -1,3 +1,4 @@
+import { Button } from "../Button";
 import style from "./style.module.scss";
 
 export function ItemProject(props) {
@@ -8,6 +9,13 @@ export function ItemProject(props) {
         <span>{props.value}</span>
       </div>
       <p>{props.describe}</p>
+      <div className={style.footer}>
+        <h1>
+          {props.footerValue}
+          <sup>Left</sup>
+        </h1>
+        <Button />
+      </div>
     </article>
   );
 }

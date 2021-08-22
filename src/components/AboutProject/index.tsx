@@ -23,8 +23,25 @@ export function AboutProject() {
           title="Bamboo Stand"
           value="Pledge $25 or more"
           describe="You get an ergonomic stand made
-      of natural bamboo. You've helped us launch our promotional campaign, and
-      you’ll be added to a special Backer member list."
+        of natural bamboo. You've helped us launch our promotional campaign, and
+        you’ll be added to a special Backer member list."
+          footerValue="101"
+        />
+        <ItemProject
+          title="Black Edition Stand"
+          value="Pledge $75 or more"
+          describe="You get a Black Special Edition
+          computer stand and a personal thank you. You’ll be added to our Backer
+          member list. Shipping is included."
+          footerValue="64"
+        />
+        <ItemProject
+          title="Black Edition Stand"
+          value="Pledge $75 or more"
+          describe="You get a Black Special Edition
+          computer stand and a personal thank you. You’ll be added to our Backer
+          member list. Shipping is included."
+          footerValue="64"
         />
       </div>
     </section>
