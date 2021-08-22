@@ -36,12 +36,12 @@ export function AboutProject() {
           footerValue="64"
         />
         <ItemProject
-          title="Black Edition Stand"
+          title="Mahogany Special Edition"
           value="Pledge $75 or more"
           describe="You get a Black Special Edition
           computer stand and a personal thank you. You’ll be added to our Backer
           member list. Shipping is included."
-          footerValue="64"
+          footerValue="0"
         />
       </div>
     </section>
