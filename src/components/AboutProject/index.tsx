@@ -1,6 +1,12 @@
+import { useState } from "react";
 import { ItemProject } from "../ItemProject";
 import style from "./style.module.scss";
 export function AboutProject() {
+  const [valueButton, setValueButton] = useState("checked");
+  function checkedButton(e) {
+    e.preventDefault();
+  }
+
   return (
     <section className={style.aboutproject}>
       <div className={style.container}>
